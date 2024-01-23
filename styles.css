@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 40px 30px;
+    background-color: #1a1e1f;
+    z-index: 2;
+}
+
+header .common_style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: #222;
+    color: #f4f4f4;
+    padding-top: 150px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+    display: none;
+    overflow-y: auto;
+}
+
+ul li:nth-child(3) {
+    color: #00aef3;
+}
+
+li {
+    font-size: 40px;
+}
+
+.icon_cont {
+    width: 30px;
+    height: 30px;
+}
+
+.burger_icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger_icon div {
+    height: 5px;
+    background-color: #dbdbdb;
+    border-radius: 2px;
+}
+
+.full {
+    width: 100%;
+}
+
+.half1 {
+    width: 50%;
+    align-self: flex-start;
+}
+
+.half2 {
+    width: 50%;
+    align-self: flex-end;
+}
+
+.fa-x {
+    display: none;
+    font-size: 30px;
+    color: #767676;
+    position: relative;
+    z-index: 2;
+}
+
+/* Main */
+
